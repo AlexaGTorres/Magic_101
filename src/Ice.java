@@ -11,4 +11,15 @@ public class Ice extends Wizards
         this.spearNum = spearNum;
         this.golemName = golemName;
     }
+
+    @Override
+    public String toString()
+    {
+        return "Wizard Name: " + name +
+                "\n Speed Level: " + speedLevel +
+                "\n Power Level: " + powerLevel +
+                "\n Snowball Amount: " + snowballNum +
+                "\n Spear Amount: " + spearNum +
+                "\n Golem Name: " + golemName;
+    }
 }//end class ice
