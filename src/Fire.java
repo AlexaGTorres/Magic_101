@@ -11,4 +11,15 @@ public class Fire extends Wizards
         this.fireSlash = fireSlash;
         this.phoenixName = phoenixName;
     }
+
+    @Override
+    public String toString()
+    {
+        return " Wizard Name: " + name +
+                "\n Speed Level: " + speedLevel +
+                "\n Power Level: " + powerLevel +
+                "\n Fireball Amount: " + fireballsNum +
+                "\n Fireslashes: " + fireSlash +
+                "\n Phoenix Name: " + phoenixName;
+    }
 }//end class fire
